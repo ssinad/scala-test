@@ -19,3 +19,9 @@ jobs:
         java-version: 1.8
     - name: Run tests
       run: sbt assembly
+
+    - name: Save Artifact
+      uses: actions/upload-artifact@v2
+      with:
+          name: artifacts
+          path: target/scala-2.12/*.jar

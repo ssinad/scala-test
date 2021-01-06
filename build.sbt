@@ -1,4 +1,4 @@
-name := "TemperatureSbt"
+name := "SbtTest"
 
 version := "1.0"
 
